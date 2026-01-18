@@ -1,0 +1,24 @@
+#Providing value using YML file
+#Value for the normal properties
+org:
+   info:
+      cName: SpeedTravel
+      cValueation: 1T
+      colours: 
+          - red
+          - blue
+          - green 
+      nickName:
+             - Raja
+             - Nikola
+      phoneNumber:
+             - 499823823
+             - 938787872
+      details:
+            aadhar: 3987484  
+            pan: 9397473
+      project:
+             pId: 20
+             pName: java
+             pAddrs: Europe
+             pSize: 100
