@@ -1,0 +1,12 @@
+# Data related profile - test
+
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql:///spring_factory
+    username: root
+    password: Raja@123
+    type: com.mchange.v2.c3p0.ComboPooledDataSource
+c3P0:
+  minSize: 10
+  maxSize: 100
