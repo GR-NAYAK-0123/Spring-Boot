@@ -1,0 +1,12 @@
+# Data related the profile - uat
+
+spring:
+  datasource:
+    driver-class-name: oracle.jdbc.driver.OracleDriver
+    url: jdbc:oracle:thin:@localhost:1521:xe
+    username: system
+    password: root
+    oracleucp:
+      min-pool-size: 10
+      max-pool-size: 100
+    type: oracle.ucp.jdbc.PoolDataSource

@@ -1,0 +1,12 @@
+# Data related profile - dev
+
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql:///spring_factory
+    username: root
+    password: Raja@123
+    dbcp2:
+      initial-size: 10
+      max-total: 100
+    type: org.apache.commons.dbcp2.BasicDataSource

@@ -1,0 +1,16 @@
+
+spring:
+#  profiles:
+#      active: raja
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql:///spring_factory
+    username: root
+    password: Raja@123
+    hikari:
+      minimum-idle: 10
+      maximum-pool-size: 1000
+#      include: uat
+
+
+
