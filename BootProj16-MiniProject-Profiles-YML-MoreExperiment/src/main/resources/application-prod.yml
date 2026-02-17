@@ -1,0 +1,12 @@
+# Data related to the profile - prod
+
+spring:
+  datasource:
+    driver-class-name: oracle.jdbc.driver.OracleDriver
+    url: jdbc:oracle:thin:@localhost:1521:xe
+    username: system
+    password: root
+    hikari:
+      minimum-idle: 10
+      maximum-pool-size: 100
+    type: com.zaxxer.hikari.HikariDataSource
